@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap')
+	;
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('imagens/bg1.jpg');
+	margin-top: 300px;
+}
+
+h1 {
+	color: #2F4F4F;
+	align-items: center;
+}
+
+.Botao {
+	text-decoration: none;
+	width: 115px;
+	height: 25px;
+	background: #008080;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	line-height: 25px;
+	margin: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	display: block;
+	width: 115px;
+	height: 25px;
+	background: #4682B4;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	line-height: 25px;
+	margin: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.Botao3 {
+	width: 115px;
+	height: 25px;
+	background: #008080;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	margin: 0px;
+	margin-top: 15px;
+}
+
+.Botao4 {
+	width: 115px;
+	height: 25px;
+	background: #DC143C;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	border: 0;
+	cursor: pointer;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.Caixa {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #4682B4;
+	border-radius: 5px;
+}
+
+#tabela {
+	margin-top: 30px;
+	border: 1px solid #ddd;
+	background: white;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background: #008080;
+	color: white;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	background: white;
+}
+
+.Radio{
+	width: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
